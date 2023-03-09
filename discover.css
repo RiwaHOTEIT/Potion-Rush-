@@ -1,0 +1,269 @@
+body {
+    background-color: hsla(242, 87%, 12%, 0.867);
+
+}
+
+
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .Title_img {
+    display: block;
+    margin: 0 auto;
+    animation-name: slideIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  .btn {
+    margin-top: 20px;
+  }
+  
+
+
+.Title_img{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video video{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+
+.section {
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #cca6e4;
+  }
+  
+  .section-1 {
+    background-color: #a796c4e3;
+  }
+  
+  .section-1 h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #440740;
+    font-family: 'Caveat', cursive;
+  }
+  
+  .section-1 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+
+  }
+  
+  .section-1 button {
+    background-color: #430c3f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .section-2 {
+    display: flex;
+    align-items: center;
+    background-color: #a796c498 ;
+  }
+  
+  .section-2 video {
+    width: 50%;
+    margin-right: 20px;
+  }
+  
+  .section-3 {
+    display: flex;
+   
+   justify-content:space-around;
+    background-color:#a796c498 ; 
+  }
+
+  .plateau_stuff{
+    height: auto;
+    width: auto;
+  }
+  
+  .section-3 img {
+    width: 50%;
+    margin-right: 20px;
+  }
+  
+  .section-3 .description {
+    flex: 1;
+  }
+
+  .section-2 p{
+    color: #430c3f;
+    font-size: x-large;
+    font-family: 'Sono', sans-serif;
+  }
+
+  
+  .section-3 p{
+    color: #430c3f;
+    font-size: x-large;
+    font-family: 'Sono', sans-serif;
+  }
+
+  .section-4{
+    background-color:#a796c498 ;
+  }
+
+  .section-4 h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #440740;
+    font-family: 'Caveat', cursive;
+
+  }
+
+  .section-5{
+    background-color:#a796c498 ;
+  }
+  .section-5 h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #440740;
+    font-family: 'Caveat', cursive;
+  }
+
+  .section-51 h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #440740;
+    font-family: 'Caveat', cursive;
+  }
+
+  .section-51{
+    background-color:#a796c4c9
+  }
+
+
+  .section-6{
+    background-color: #806ba3e3;
+  }
+
+  .small-compartments {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .small-compartment {
+    width: 23%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .small-compartment h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .small-compartment p {
+    font-size: 14px;
+  }
+  
+    
+  .Flex1{
+    display: flex; justify-content: space-around;
+  }
+
+  .card{
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.container{
+    flex: 24%;
+    overflow: hidden;
+    height: auto;
+    text-align: center;
+    border-radius: 2%;
+    margin: 0px 5px;
+}
+
+.first{
+    background-color: #440740;
+}
+
+.second{
+    background-color: #440740;
+}
+
+.third{
+    background-color: #440740;
+}
+
+.fourth{
+    background-color: #440740;
+}
+
+.fifth{
+    background-color: #440740;
+}
+
+
+.image{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 15px 0px;
+
+}
+
+image{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px ;
+    align-items: center ;
+}
+
+
+footer h1{
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  color: #430c3f;
+
+}

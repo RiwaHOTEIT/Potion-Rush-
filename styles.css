@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+   margin-bottom: 0;
+  }
+
+head title{
+  font-family: 'Caveat', cursive;
+}
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .Title_img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    
+    
+        margin-bottom: 250px;
+        margin-top: 0px;
+        border: none;
+        
+        background: linear-gradient(25deg, rgb(14, 113, 234),rgb(233, 12, 181));
+        color: white;
+        font-size: 15px;
+        border-radius: 50px;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        
+      
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .Title_img {
+    display: block;
+    margin: 0 auto;
+    animation-name: slideIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  .btn {
+    margin-top: 20px;
+  }
+  
+  
+  
+  body{
+    background-image: url(background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+   
+  }
+
+
+  
+  .Title_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width: 50%;
+    
+   
+    
+  }
+
+
+  
+  
+  a{
+   text-decoration: none;
+   color: rgb(245, 16, 199);
+   padding: 5px 20px;
+   border: 1px solid transparent;
+   transition: 0.5s;
+   border-radius: 10 px;
+  }
+  
+  a:hover{
+    background-color:antiquewhite;
+    color:black;
+  }
+  
+  .dropdown {
+    color: rgb(245, 16, 199);
+  } 
+  
+  h1{
+    color: aliceblue;
+    font-family: 'VT323', monospace;
+    font-size: 80px;
+  }
+  
+ 
+  .click{
+    text-align: center;
+  }
+  
+  .acess{
+    color: rgb(245, 12, 128);
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  button{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border: none;
+    padding: 12px 25px;
+    background: linear-gradient(25deg, rgb(51, 5, 27),rgb(222, 17, 113));
+    color: white;
+    font-size: 15px;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    
+  }
+  
+  .discover{
+    text-decoration: underline;
+    color: aliceblue;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  @media screen and (max-width:1200px) {
+    .container{
+        flex: 35%;
+        margin: 5px 5px;
+    }
+  }
+  
+  
+  @media screen and (max-width:600px) {
+    .container{
+        flex: 80%;
+        margin: 5px 5px;
+    }
+  }
+  
